@@ -1,0 +1,35 @@
+{
+    "name": "Chifa Sipán Mesero",
+    "short_name": "Sipán Mesero",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#F5F6F8",
+    "theme_color": "#E50935",
+    "description": "Aplicación de atención para meseros de Chifa Sipán.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

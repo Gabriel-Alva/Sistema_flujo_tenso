@@ -1,0 +1,17 @@
+backend/vendor/
+backend/node_modules/
+backend/.env
+backend/storage/logs/
+backend/storage/framework/cache/
+backend/storage/framework/sessions/
+backend/storage/framework/views/
+backend/bootstrap/cache/*.php
+apps/waiter_flutter/.dart_tool/
+apps/waiter_flutter/build/
+apps/kitchen_vue/node_modules/
+apps/kitchen_vue/dist/
+apps/cashier_react/node_modules/
+apps/cashier_react/dist/
+.idea/
+.vscode/
+*.log

@@ -1,0 +1,21 @@
+:root {
+  --color-status-pending: #D97706;
+  --color-status-preparing: #2563EB;
+  --color-status-ready: #16A34A;
+  --color-status-delivered: #4B5563;
+  --color-status-cancelled: #DC2626;
+  --color-brand-primary: #8B1A1A;
+  --color-brand-primary-dark: #5C1010;
+  --color-brand-gold: #C4A35A;
+  --color-brand-gold-soft: #E8D5A3;
+  --color-ink: #1C1917;
+  --color-muted: #78716C;
+  --color-paper: #F6F1E8;
+  --color-surface: #FFFBF5;
+  --color-line: #E7DFD2;
+  --color-kds: #1A1210;
+  --space-touch: 48px;
+  --radius: 14px;
+  --shadow: 0 10px 30px rgba(92, 16, 16, 0.08);
+  --font: "Segoe UI", "Noto Sans", system-ui, sans-serif;
+}

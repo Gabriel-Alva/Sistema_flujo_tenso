@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Segoe UI, sans-serif; background: var(--color-paper); color: var(--color-ink); }
+.shell { display: grid; grid-template-columns: 240px 1fr; min-height: 100vh; }
+.sidebar { background: var(--color-brand-primary); color: #fff; padding: 24px 16px; display: flex; flex-direction: column; gap: 16px; }
+.brand { font-weight: 600; font-size: 1.2rem; }
+.sidebar nav { display: flex; flex-direction: column; gap: 8px; }
+.sidebar a, .sidebar button { color: #fff; text-decoration: none; background: transparent; border: 0; text-align: left; padding: 10px 8px; cursor: pointer; }
+.content { padding: 24px; }
+.topbar { display: flex; justify-content: space-between; align-items: center; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
+.stat-card { background: #fff; border-radius: var(--radius); padding: 20px; border: 1px solid #e5e7eb; }
+.stat-card strong { display: block; font-size: 2rem; }
+.login-body { min-height: 100vh; display: grid; place-items: center; }
+.login-card { background: #fff; padding: 32px; width: min(420px, 92vw); border-radius: var(--radius); display: grid; gap: 12px; }
+.login-card input { width: 100%; min-height: var(--space-touch); padding: 8px 12px; }
+.login-card button { min-height: var(--space-touch); background: var(--color-brand-primary); color: #fff; border: 0; border-radius: 8px; }
+.error { color: var(--color-status-cancelled); }

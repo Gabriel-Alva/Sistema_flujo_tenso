@@ -1,0 +1,9 @@
+SET GLOBAL event_scheduler = ON;
+
+DROP EVENT IF EXISTS evt_limpiar_tokens_expirados;
+CREATE EVENT evt_limpiar_tokens_expirados
+ON SCHEDULE EVERY 1 DAY
+STARTS (TIMESTAMP(CURRENT_DATE) + INTERVAL 1 DAY + INTERVAL 3 HOUR)
+DO
+    DELETE FROM REFRESH_TOKEN
+    WHERE expira_en < NOW();

@@ -1,0 +1,1 @@
+{"root":["./src/app.vue","./src/env.d.ts","./src/main.ts","./src/components/sipanicon.vue","./src/core/api.ts","./src/stores/auth.store.ts","./src/stores/queue.store.ts","./src/views/loginview.vue","./src/views/stationboardview.vue"],"version":"5.9.3"}
